@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-image: url(imagens/BR-pt-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+header img{
+    width: 170px;
+    margin-left: 1%;
+}
+
+main{
+    margin: auto;
+    width: 455px;
+}
+
+article{
+    background-color: rgba(0, 0, 0, 0.747);
+    padding: 40px 60px 150px 60px;
+    display: inline-block;
+    border-radius: 7px;
+}
+
+article h1{
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 2em;
+}
+
+.login{
+    text-align: center;
+    display: inline-block;
+}
+
+#email{
+    background-color: rgb(54, 54, 54);
+    padding: 17px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline;
+    width: 300px;
+    font-size: 1em;
+    border-style: none;
+    font-weight: bold;
+}
+
+#senha{
+    background-color: rgb(54, 54, 54);
+    padding: 17px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    width: 300px;
+    font-size: 1em;
+    border-style: none;
+    font-weight: bold;
+}
+
+button{
+    color: white;
+    background-color: red;
+    width: 335px;
+    border-radius: 5px;
+    padding: 17px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.checkbox{
+    color: rgb(172, 172, 172);
+    text-align: left;
+}
+
+.checkbox p{
+    display: inline;
+    font-size: 0.85em;
+    margin-left: 4px;
+    margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ajuda{
+    text-align: right;
+    color: rgb(172, 172, 172);
+    font-size: 0.80em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.assinar {
+    color: rgb(139, 139, 139);
+    margin-top:70px;
+    margin-bottom: 15px;
+}
+
+.assinar a{
+    color: white;
+}
+
+.proteçao{
+    color: rgb(139, 139, 139);
+    display: inline;
+    font-size: 0.80em;
+}
+
+.saiba-mais{
+    color: rgb(0, 64, 184);
+    font-size: 0.90em;
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: rgb(139, 139, 139);
+    padding: 30px 400px;
+    margin-top: 85px;
+}
+
+footer a{
+    color: rgb(139, 139, 139);
+}
+
+footer > p{
+    margin-bottom: 30px;
+
+}
+
+ul{
+    columns: 4;
+    font-size: 0.80em;
+    list-style: none;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#select{
+    background-color: black;
+    color: rgb(139, 139, 139);
+    padding: 15px 25px;
+
+}
