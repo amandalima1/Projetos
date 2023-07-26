@@ -7,6 +7,7 @@
 
 html{
     background-image: url(imagens/BR-pt-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,6 +31,7 @@ article{
     padding: 40px 60px 150px 60px;
     display: inline-block;
     border-radius: 7px;
+    margin-bottom: 85px;
 }
 
 article h1{
@@ -128,11 +130,17 @@ a:hover{
 
 
 footer{
-    background-color: rgba(0, 0, 0, 0.747);
     color: rgb(139, 139, 139);
-    padding: 30px 400px;
-    margin-top: 85px;
+    padding: 30px;
+    margin: 0 auto;
+    width: 1000px;
 }
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.747);
+    
+}
+
 
 footer a{
     color: rgb(139, 139, 139);
@@ -140,6 +148,7 @@ footer a{
 
 footer > p{
     margin-bottom: 30px;
+
 
 }
 
@@ -156,4 +165,29 @@ ul{
     color: rgb(139, 139, 139);
     padding: 15px 25px;
 
+
 }
+
+
+@media (max-width: 1075px) {
+    footer{
+        width: 700px;
+    }
+}
+
+@media (max-width: 777px) {
+    footer{
+        width: 500px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 580px) {
+    footer{
+        width: 300px;
+    } 
+    ul{
+        columns: 2;
+    }
+}   
+
