@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px*/
+
+@media screen and (min-width: 992px){
+    section{
+        width: 814px;
+    }
+    div#join{
+        padding: 50px;
+        height: 160px;
+    }
+    div#join > h1{
+        font-size: 1.8em;
+        margin-bottom: 30px;
+    }
+    div#join > h2{
+        font-size: 1.4em;
+        margin-bottom: 15px;
+    }
+    div#join > p{
+        font-size: 1.25em;
+    }
+    div#subscription{
+        display: inline-block;
+        height: 228px;
+        width: 305px;
+        padding: 50px;
+        padding-bottom: 25px;
+    }
+    div#why-us{
+        display: inline-block;
+        height: 228px;
+        width: 309px;
+        margin-left: -4px;
+        padding: 50px;
+        padding-bottom: 25px;
+    }
+}
