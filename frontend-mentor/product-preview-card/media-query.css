@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px){
+    section{
+        width: 750px;
+        height: 580px
+    }
+    .image{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-image: url(images/image-product-desktop.jpg); 
+    }
+    .conteudo{
+        float: right;
+        width: 315px;
+        height: 550px;
+        margin: 0px;
+        padding: 0px 30px;
+    }
+    .preview{
+        margin-top: 40px;
+    }
+    h1.fonte-1{
+        font-size: 3.1em;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    p.fonte-2{
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+    .cart{
+        margin-top: 30px;
+    }
+    .cart:hover{
+        background-color: hsl(158, 36%, 27%);
+    }
+}
