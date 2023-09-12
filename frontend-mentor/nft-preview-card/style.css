@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/*- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+font-family: 'Outfit', sans-serif;
+- Font size (paragraph): 18px*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+div#imagem{
+    background-image: url(images/image-equilibrium.jpg);
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    background-size: contain;
+    margin-bottom: 25px;
+}
+
+div#imagem:hover{
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+div#preço{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+div#preço > p#ETH{
+    color:hsl(178, 100%, 50%);
+    font-weight: 400;
+    padding: 20px 0px 15px 0px;
+}
+
+div#preço > p#days > span.material-symbols-outlined{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+div#creation{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+div#creation > img{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+div#creation a{
+    text-decoration: none;
+    color: white;
+}
+
+div#creation a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
