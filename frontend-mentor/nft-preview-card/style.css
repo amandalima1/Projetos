@@ -80,6 +80,11 @@ div#preço > p#ETH{
     color:hsl(178, 100%, 50%);
     font-weight: 400;
     padding: 20px 0px 15px 0px;
+    font-size: 1em;
+}
+
+div#preço > p#days{
+    font-size: 1em;
 }
 
 div#preço > p#days > span.material-symbols-outlined{
@@ -96,7 +101,7 @@ div#creation{
 div#creation > img{
     border: 2px solid white;
     border-radius: 50px;
-    width: 40px;
+    width: 30px;
     margin-right: 20px;
 }
 
