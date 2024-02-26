@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html{
+margin: 0px;
+padding: 0px;
+font-family: "Outfit", sans-serif;
+background-color: var(--cor5);
+color: var(--cor7);
+}
+
+/*- Nutmeg: hsl(14, 45%, 36%)
+- Dark Raspberry: hsl(332, 51%, 32%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%)
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%)*/
+
+:root{
+    --cor1: hsl(14, 45%, 36%);
+    --cor2: hsl(332, 51%, 32%);
+    --cor3: hsl(0, 0%, 100%);
+    --cor4: hsl(330, 100%, 98%);
+    --cor5: hsl(30, 54%, 90%);
+    --cor6: hsl(30, 18%, 87%);
+    --cor7: hsl(30, 10%, 34%);
+    --cor8: hsl(24, 5%, 18%);
+
+    --fonte-padrao: "Outfit", sans-serif;
+    --fonte-titulos: "Young Serif", serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    width: 100%;
+    height: 223PX;
+    background-image: url(assets/images/image-omelette.jpeg);
+    background-size: contain;
+    border-radius: 10px;
+}
+
+section{
+    background-color: white;
+    border-radius: 15px;
+    width: 50vh;
+    padding: 30px;
+}
+
+p, li{
+    font-size: 0.76em;
+}
+
+h1{
+    font-family: var(--fonte-titulos);
+    font-size: 1.85em;
+    color: var(--cor8);
+}
+
+h2{
+    font-family: var(--fonte-titulos);
+    font-size: 1.5em;
+    color: var(--cor1);
+}
+
+h3{
+    color: var(--cor2);
+    font-size: 1em;
+}
+
+.preparation-time{
+    background-color:var(--cor4);
+    padding: 1px 20px;
+    margin-top: 30px;
+}
+
+li{
+   line-height: 25px;
+}
+
+
+li::marker{
+    color: var(--cor1);
+    font-weight: bolder;
+}
+
+div.preparation-time li::marker{
+    color: var(--cor2);
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    border-bottom: 1px solid rgba(204, 204, 204, 0.596);
+    padding: 15px;
+}
+
+.linha{
+    border-bottom: 1px solid rgba(204, 204, 204, 0.596);
+    padding-bottom: 25px ;
+}
+
+.g{
+    color: var(--cor1);
+    font-weight: bolder;
+}
+
+@media (max-width: 375px) {
+    *{
+        background-color: red;
+    }
+}
