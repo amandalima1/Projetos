@@ -6,19 +6,8 @@ padding: 0px;
 font-family: "Outfit", sans-serif;
 background-color: var(--cor5);
 color: var(--cor7);
+padding: 100px 0px;
 }
-
-/*- Nutmeg: hsl(14, 45%, 36%)
-- Dark Raspberry: hsl(332, 51%, 32%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Rose White: hsl(330, 100%, 98%)
-- Eggshell: hsl(30, 54%, 90%)
-- Light Grey: hsl(30, 18%, 87%)
-- Wenge Brown: hsl(30, 10%, 34%)
-- Dark Charcoal: hsl(24, 5%, 18%)*/
 
 :root{
     --cor1: hsl(14, 45%, 36%);
@@ -71,9 +60,10 @@ h2{
     color: var(--cor1);
 }
 
-h3{
+.preparation-time p{
     color: var(--cor2);
     font-size: 1em;
+    font-weight: bolder;
 }
 
 .preparation-time{
